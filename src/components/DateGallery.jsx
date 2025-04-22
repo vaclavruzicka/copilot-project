@@ -1,3 +1,7 @@
+//DateGallery.jsx
+//Obtain data from this api, https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo and display them using an imported function from DateCard.jsx.
+//Add a search box that allows users to search for a time and date.
+
 import { useEffect, useState } from 'react'
 import DateCard from './DateCard'
 
